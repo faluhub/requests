@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "requests",
+  "version": "${version}",
+  "name": "Requests",
+  "description": "Make web requests with a command.",
+  "authors": ["falu"],
+  "contact": {
+    "homepage": "https://github.com/faluhub"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["me.falu.requests.Requests"]
+  },
+  "mixins": ["requests.mixins.json"],
+  "depends": {
+    "minecraft": "1.16.1"
+  }
+}
